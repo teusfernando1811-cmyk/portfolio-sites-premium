@@ -1,25 +1,23 @@
 # Premium portfolio demos
 
-This branch contains three standalone demos. It does **not** replace the Summit Auto Care application on `main`.
+This repository hosts three standalone example websites:
 
-- `/auto-us/`: **Vantage Motor Co.** — US automotive shop.
-- `/architecture-us/`: **Atelier Still** — US architecture studio.
-- `/arquitetura-br/`: **Lume Arquitetura** — Brazilian architecture studio.
-- `/`: Portfolio index.
+- `/auto-us/` — **Vantage Motor Co.**, US auto repair shop
+- `/architecture-us/` — **Atelier Still**, US architecture studio
+- `/arquitetura-br/` — **Lume Arquitetura**, Brazilian architecture studio
 
-## GitHub Pages
+The home page (`/`) is an index linking all three.
 
-To publish these static HTML demos without rebuilding the main app:
+## Publish with GitHub Pages
 
-1. Open the repository's **Settings → Pages**.
-2. Select **Deploy from a branch** under Build and deployment.
-3. Select `portfolio-three-premium-demos` and `/(root)`, then **Save**.
-4. After GitHub reports a successful deployment, open `https://teusfernando1811-cmyk.github.io/summit-auto-care-companion/`.
+In this repository, open **Settings → Pages**. Under **Build and deployment**, set **Source** to **Deploy from a branch**, choose **main**, choose **/(root)** and click **Save**. Wait for GitHub to finish publishing and show the live address. The expected address is:
 
-If this repository already hosts Summit via GitHub Pages, changing its Pages branch will **replace the public site**, though the `main` branch remains untouched. To avoid that, create a separate repository for the demos and publish from its branch instead.
+https://teusfernando1811-cmyk.github.io/portfolio-sites-premium/
 
-## Before client use
+After publication, each demo can be accessed under its respective folder path.
 
-These are *fictional concept brands*, not real companies. No live bookings, phone numbers, addresses, testimonials or contact integration are claimed. Hero/portfolio images are illustrative stock photography from Unsplash. Replace sample copy, claims and stock images with client-authorized assets, and configure real contact/booking methods. Verify rights and performance for final production use.
+## Important
 
-The sites are responsive static HTML/CSS/JS, use scroll-reveal animations with reduced-motion support and mobile navigation, and need no build step.
+These are fictional business concepts and illustrative photo portfolios, not real client work. They do not have live booking or contact backends. Before selling to a real business, configure contact forms and real business details, customize content, and verify assets and production functionality.
+
+The Summit Auto Care Companion application remains in a **separate repository**.
